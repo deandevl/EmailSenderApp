@@ -1,6 +1,6 @@
 ## EmailSender
 
-**EmailSender** is a locally hosted web browser application that can send groups of emails from a user's email service provider.  It is Windows based and assumes that Microsoft .NET Framework 4.7.1 is installed.  Download and extract the `EmailSender-master` zip file from the [EmailSender repository](https://github.com/deandevl/EmailSender) . Locate and run the `setup.exe` setup file.  
+**EmailSender** is a locally hosted web browser application that can send groups of emails from a user's email service provider.  It is Windows based and assumes that Microsoft .NET Framework 4.7.1 is installed.  Download and extract the `EmailSender-master` zip file from the [EmailSender repository](https://github.com/deandevl/EmailSenderApp) . Locate and run the `setup.exe` setup file.  
 
 Locate and edit the `settings.xml` file in the root of the installed directory.  There are xml tags for your `EmailFromAddress`, `EmailFromName`, `EmailImageContentID`, `EmailServer`,  `EmailPort`,  `EmailUser`, `EmailPass` (your email password).  Somewhere on your computer system create an html formatted email message.  If you are embedding an image, make sure that the `EmailImageContentID` in `settings.xml`is identical to the Content_Id value in your message html.  For an example message html file, see the `message.html` file and associated image file under the `TestMessage` directory.
 
