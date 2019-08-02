@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmailFromAddress>your from address</EmailFromAddress>
+  <EmailFromName>your from name</EmailFromName>
+  <EmailImageContentID>6f1be526-525e-43dc-aee9-1937642ea43d</EmailImageContentID>  
+  <EmailServer>your email server provider</EmailServer>
+  <EmailPort>your email port number</EmailPort>
+  <EmailUser>your email login to server</EmailUser>
+  <EmailPass>your email password to server</EmailPass>
+</Settings>
